@@ -1,4 +1,4 @@
 # Sobel_Operation_verilog
-verilog realization of Sobel operation
-project file name is 'sobel_new'
-all source files are in sobel_new.srcs
+verilog realization of Sobel operation/n
+project file name is 'sobel_new'/n
+all source files are in sobel_new.srcs/n

@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../sobel_new.ip_user_files/bd/sobel_top/ip/sobel_top_rgb2gray_0_0/sim/sobel_top_rgb2gray_0_0.v" \
+"../../../../sobel_new.srcs/sources_1/imports/sobel_new.srcs/rgb2gray.v" \
+"../../../../sobel_new.ip_user_files/bd/sobel_top/sim/sobel_top.v" \
+"../../../../sobel_new.srcs/sources_1/imports/hdl/sobel_top.v" \
+"../../../../sobel_new.srcs/sim_1/imports/sobel_new.sim/sobel_sim.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="sobel_sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="sobel_sim" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1041884818fs"></ZoomEndTime>
+      <Cursor1Time time="790000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="130"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="44" />
+   <wvobject fp_name="/sobel_sim/pixel" type="array">
+      <obj_property name="ElementShortName">pixel[23:0]</obj_property>
+      <obj_property name="ObjectShortName">pixel[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sobel_sim/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sobel_sim/rst_p" type="logic">
+      <obj_property name="ElementShortName">rst_p</obj_property>
+      <obj_property name="ObjectShortName">rst_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sobel_sim/enable" type="logic">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sobel_sim/sobel_0/sobel_top_i/sobel_algo_0/inst/mat_row_1_in" type="array">
+      <obj_property name="ElementShortName">mat_row_1_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mat_row_1_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sobel_sim/sobel_0/sobel_top_i/sobel_algo_0/inst/mat_row_2_in" type="array">
+      <obj_property name="ElementShortName">mat_row_2_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mat_row_2_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sobel_sim/sobel_0/sobel_top_i/sobel_algo_0/inst/mat_row_3_in" type="array">
+      <obj_property name="ElementShortName">mat_row_3_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mat_row_3_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sobel_sim/sobel_0/sobel_top_i/sobel_algo_0/inst/mat_flag" type="logic">
+      <obj_property name="ElementShortName">mat_flag</obj_property>
+      <obj_property name="ObjectShortName">mat_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sobel_sim/sobel_0/sobel_top_i/sobel_algo_0/inst/mat_flag_0" type="logic">
+      <obj_property name="ElementShortName">mat_flag_0</obj_property>
+      <obj_property name="ObjectShortName">mat_flag_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sobel_sim/sobel_0/sobel_top_i/sobel_algo_0/inst/mat_flag_1" type="logic">
+      <obj_property name="ElementShortName">mat_flag_1</obj_property>
+      <obj_property name="ObjectShortName">mat_flag_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sobel_sim/sobel_0/sobel_top_i/sobel_algo_0/inst/mat_flag_2" type="logic">
+      <obj_property name="ElementShortName">mat_flag_2</obj_property>
+      <obj_property name="ObjectShortName">mat_flag_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sobel_sim/sobel_0/sobel_top_i/sobel_algo_0/inst/sobel_flag" type="logic">
+      <obj_property name="ElementShortName">sobel_flag</obj_property>
+      <obj_property name="ObjectShortName">sobel_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sobel_sim/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sobel_sim/sobel_0/sobel_top_i/sobel_algo_0/inst/mat_p11" type="array">
+      <obj_property name="ElementShortName">mat_p11[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mat_p11[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sobel_sim/sobel_0/sobel_top_i/sobel_algo_0/inst/mat_p12" type="array">
+      <obj_property name="ElementShortName">mat_p12[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mat_p12[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sobel_sim/sobel_0/sobel_top_i/sobel_algo_0/inst/mat_p13" type="array">
+      <obj_property name="ElementShortName">mat_p13[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mat_p13[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sobel_sim/sobel_0/sobel_top_i/sobel_algo_0/inst/mat_p21" type="array">
+      <obj_property name="ElementShortName">mat_p21[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mat_p21[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sobel_sim/sobel_0/sobel_top_i/sobel_algo_0/inst/mat_p22" type="array">
+      <obj_property name="ElementShortName">mat_p22[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mat_p22[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sobel_sim/sobel_0/sobel_top_i/sobel_algo_0/inst/mat_p23" type="array">
+      <obj_property name="ElementShortName">mat_p23[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mat_p23[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sobel_sim/sobel_0/sobel_top_i/sobel_algo_0/inst/mat_p31" type="array">
+      <obj_property name="ElementShortName">mat_p31[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mat_p31[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sobel_sim/sobel_0/sobel_top_i/sobel_algo_0/inst/mat_p32" type="array">
+      <obj_property name="ElementShortName">mat_p32[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mat_p32[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sobel_sim/sobel_0/sobel_top_i/sobel_algo_0/inst/mat_p33" type="array">
+      <obj_property name="ElementShortName">mat_p33[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mat_p33[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sobel_sim/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sobel_sim/sobel_0/sobel_top_i/sobel_algo_0/inst/Gx_temp" type="array">
+      <obj_property name="ElementShortName">Gx_temp[9:0]</obj_property>
+      <obj_property name="ObjectShortName">Gx_temp[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sobel_sim/sobel_0/sobel_top_i/sobel_algo_0/inst/Gx_temp_1" type="array">
+      <obj_property name="ElementShortName">Gx_temp_1[9:0]</obj_property>
+      <obj_property name="ObjectShortName">Gx_temp_1[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sobel_sim/sobel_0/sobel_top_i/sobel_algo_0/inst/Gx_temp_2" type="array">
+      <obj_property name="ElementShortName">Gx_temp_2[9:0]</obj_property>
+      <obj_property name="ObjectShortName">Gx_temp_2[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sobel_sim/sobel_0/sobel_top_i/sobel_algo_0/inst/Gy_temp" type="array">
+      <obj_property name="ElementShortName">Gy_temp[9:0]</obj_property>
+      <obj_property name="ObjectShortName">Gy_temp[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sobel_sim/sobel_0/sobel_top_i/sobel_algo_0/inst/Gy_temp_1" type="array">
+      <obj_property name="ElementShortName">Gy_temp_1[9:0]</obj_property>
+      <obj_property name="ObjectShortName">Gy_temp_1[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sobel_sim/sobel_0/sobel_top_i/sobel_algo_0/inst/Gy_temp_2" type="array">
+      <obj_property name="ElementShortName">Gy_temp_2[9:0]</obj_property>
+      <obj_property name="ObjectShortName">Gy_temp_2[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sobel_sim/sobel_0/sobel_top_i/sobel_algo_0/inst/Gxy_temp" type="array">
+      <obj_property name="ElementShortName">Gxy_temp[10:0]</obj_property>
+      <obj_property name="ObjectShortName">Gxy_temp[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sobel_sim/sobel_0/sobel_top_i/sobel_algo_0/inst/sobel_out_reg" type="logic">
+      <obj_property name="ElementShortName">sobel_out_reg</obj_property>
+      <obj_property name="ObjectShortName">sobel_out_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sobel_sim/sobel_0/sobel_top_i/sobel_algo_0/inst/output_flag" type="logic">
+      <obj_property name="ElementShortName">output_flag</obj_property>
+      <obj_property name="ObjectShortName">output_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sobel_sim/sobel_0/sobel_top_i/sobel_algo_0/inst/clk_cnt" type="array">
+      <obj_property name="ElementShortName">clk_cnt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">clk_cnt[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sobel_sim/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sobel_sim/sobel_0/sobel_top_i/mem_ctrl_0/din" type="logic">
+      <obj_property name="ElementShortName">din</obj_property>
+      <obj_property name="ObjectShortName">din</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sobel_sim/sobel_0/sobel_top_i/mem_ctrl_0/input_valid" type="logic">
+      <obj_property name="ElementShortName">input_valid</obj_property>
+      <obj_property name="ObjectShortName">input_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sobel_sim/sobel_0/sobel_top_i/mem_ctrl_0/wr_addr" type="array">
+      <obj_property name="ElementShortName">wr_addr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_addr[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sobel_sim/sobel_0/sobel_top_i/mem_ctrl_0/wea" type="logic">
+      <obj_property name="ElementShortName">wea</obj_property>
+      <obj_property name="ObjectShortName">wea</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sobel_sim/sobel_0/sobel_top_i/mem_ctrl_0/dout" type="logic">
+      <obj_property name="ElementShortName">dout</obj_property>
+      <obj_property name="ObjectShortName">dout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sobel_sim/sobel_0/sobel_top_i/blk_mem_gen_0/ena" type="logic">
+      <obj_property name="ElementShortName">ena</obj_property>
+      <obj_property name="ObjectShortName">ena</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sobel_sim/sobel_0/sobel_top_i/blk_mem_gen_0/wea" type="array">
+      <obj_property name="ElementShortName">wea[0:0]</obj_property>
+      <obj_property name="ObjectShortName">wea[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sobel_sim/sobel_0/sobel_top_i/blk_mem_gen_0/addra" type="array">
+      <obj_property name="ElementShortName">addra[3:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sobel_sim/sobel_0/sobel_top_i/blk_mem_gen_0/dina" type="array">
+      <obj_property name="ElementShortName">dina[0:0]</obj_property>
+      <obj_property name="ObjectShortName">dina[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sobel_sim/sobel_0/sobel_top_i/blk_mem_gen_0/douta" type="array">
+      <obj_property name="ElementShortName">douta[0:0]</obj_property>
+      <obj_property name="ObjectShortName">douta[0:0]</obj_property>
+   </wvobject>
+</wave_config>

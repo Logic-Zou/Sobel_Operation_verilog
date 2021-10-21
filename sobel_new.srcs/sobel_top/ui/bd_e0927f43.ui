@@ -1,0 +1,34 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port rst_p -pg 1 -y -180 -defaultsOSRD
+preplace port rgb_enable -pg 1 -y -40 -defaultsOSRD
+preplace port clk -pg 1 -y -200 -defaultsOSRD
+preplace portBus rgb_data_in -pg 1 -y -20 -defaultsOSRD
+preplace inst sobel_algo_0 -pg 1 -lvl 3 -y -100 -defaultsOSRD
+preplace inst rgb2gray_0 -pg 1 -lvl 1 -y -50 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 4 -y 10 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 5 -y -110 -defaultsOSRD
+preplace inst mem_ctrl_0 -pg 1 -lvl 4 -y -120 -defaultsOSRD
+preplace inst matrix_3r3c_0 -pg 1 -lvl 2 -y 30 -defaultsOSRD
+preplace netloc sobel_algo_0_sobel_out 1 3 1 N
+preplace netloc matrix_3r3c_0_mat_row_2_out 1 2 1 790
+preplace netloc rst_p_0_1 1 0 4 -60 -140 430 -130 810 -210 1110
+preplace netloc matrix_3r3c_0_mat_row_3_out 1 2 1 800
+preplace netloc rgb2gray_0_gray_data_out 1 1 1 420
+preplace netloc mem_ctrl_0_dout 1 4 1 1390
+preplace netloc mem_ctrl_0_wr_addr 1 4 1 1380
+preplace netloc rgb_data_in_0_1 1 0 1 N
+preplace netloc rgb_enable_0_1 1 0 1 N
+preplace netloc xlconstant_0_dout 1 4 1 1390
+preplace netloc clk_1 1 0 5 -50 -150 440 -150 780 -220 1120 -210 1390
+preplace netloc matrix_3r3c_0_mat_flag 1 2 1 810
+preplace netloc matrix_3r3c_0_mat_row_1_out 1 2 1 780
+preplace netloc rgb2gray_0_output_valid 1 1 1 410
+preplace netloc mem_ctrl_0_wea 1 4 1 1380
+preplace netloc sobel_algo_0_output_valid 1 3 1 N
+levelinfo -pg 1 -80 250 610 960 1250 1490 1620 -top -360 -bot 200
+"
+}
+0

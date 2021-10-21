@@ -1,0 +1,375 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x309E1E2F1F29F888",
+      "device": "xc7k160tfbg676-1",
+      "name": "sobel_top",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2018.3",
+      "validated": "true"
+    },
+    "design_tree": {
+      "rgb2gray_0": "",
+      "matrix_3r3c_0": "",
+      "sobel_algo_0": "",
+      "blk_mem_gen_0": "",
+      "xlconstant_0": "",
+      "mem_ctrl_0": ""
+    },
+    "ports": {
+      "clk": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "sobel_top_clk_0",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.000",
+            "value_src": "default"
+          }
+        }
+      },
+      "rst_p": {
+        "direction": "I"
+      },
+      "rgb_enable": {
+        "direction": "I"
+      },
+      "rgb_data_in": {
+        "direction": "I",
+        "left": "23",
+        "right": "0"
+      }
+    },
+    "components": {
+      "rgb2gray_0": {
+        "vlnv": "xilinx.com:module_ref:rgb2gray:1.0",
+        "xci_name": "sobel_top_rgb2gray_0_0",
+        "reference_info": {
+          "ref_type": "unknown",
+          "ref_name": "rgb2gray",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "CLK_DOMAIN": {
+                "value": "sobel_top_clk_0",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "rst_p": {
+            "direction": "I"
+          },
+          "rgb_enable": {
+            "direction": "I"
+          },
+          "rgb_data_in": {
+            "direction": "I",
+            "left": "23",
+            "right": "0"
+          },
+          "gray_data_out": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "output_valid": {
+            "direction": "O"
+          }
+        }
+      },
+      "matrix_3r3c_0": {
+        "vlnv": "xilinx.com:module_ref:matrix_3r3c:1.0",
+        "xci_name": "sobel_top_matrix_3r3c_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "matrix_3r3c",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "CLK_DOMAIN": {
+                "value": "sobel_top_clk_0",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "rst_p": {
+            "direction": "I"
+          },
+          "gray_data_in": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "input_valid": {
+            "direction": "I"
+          },
+          "mat_row_1_out": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "mat_row_2_out": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "mat_row_3_out": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "mat_flag": {
+            "direction": "O"
+          }
+        }
+      },
+      "sobel_algo_0": {
+        "vlnv": "xilinx.com:module_ref:sobel_algo:1.0",
+        "xci_name": "sobel_top_sobel_algo_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "sobel_algo",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "CLK_DOMAIN": {
+                "value": "sobel_top_clk_0",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "rst_p": {
+            "direction": "I"
+          },
+          "mat_row_1_in": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "mat_row_2_in": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "mat_row_3_in": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "mat_flag": {
+            "direction": "I"
+          },
+          "sobel_out": {
+            "direction": "O"
+          },
+          "output_valid": {
+            "direction": "O"
+          }
+        }
+      },
+      "blk_mem_gen_0": {
+        "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+        "xci_name": "sobel_top_blk_mem_gen_0_0",
+        "parameters": {
+          "Enable_32bit_Address": {
+            "value": "false"
+          },
+          "Read_Width_A": {
+            "value": "1"
+          },
+          "Register_PortA_Output_of_Memory_Primitives": {
+            "value": "true"
+          },
+          "Use_Byte_Write_Enable": {
+            "value": "false"
+          },
+          "Use_RSTA_Pin": {
+            "value": "false"
+          },
+          "Write_Depth_A": {
+            "value": "9"
+          },
+          "Write_Width_A": {
+            "value": "1"
+          },
+          "use_bram_block": {
+            "value": "Stand_Alone"
+          }
+        }
+      },
+      "xlconstant_0": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "sobel_top_xlconstant_0_0"
+      },
+      "mem_ctrl_0": {
+        "vlnv": "xilinx.com:module_ref:mem_ctrl:1.0",
+        "xci_name": "sobel_top_mem_ctrl_0_1",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "mem_ctrl",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "CLK_DOMAIN": {
+                "value": "sobel_top_clk_0",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "rst_p": {
+            "direction": "I"
+          },
+          "din": {
+            "direction": "I"
+          },
+          "input_valid": {
+            "direction": "I"
+          },
+          "wr_addr": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "wea": {
+            "direction": "O"
+          },
+          "dout": {
+            "direction": "O"
+          }
+        }
+      }
+    },
+    "nets": {
+      "rst_p_0_1": {
+        "ports": [
+          "rst_p",
+          "rgb2gray_0/rst_p",
+          "matrix_3r3c_0/rst_p",
+          "sobel_algo_0/rst_p",
+          "mem_ctrl_0/rst_p"
+        ]
+      },
+      "rgb_enable_0_1": {
+        "ports": [
+          "rgb_enable",
+          "rgb2gray_0/rgb_enable"
+        ]
+      },
+      "rgb_data_in_0_1": {
+        "ports": [
+          "rgb_data_in",
+          "rgb2gray_0/rgb_data_in"
+        ]
+      },
+      "rgb2gray_0_gray_data_out": {
+        "ports": [
+          "rgb2gray_0/gray_data_out",
+          "matrix_3r3c_0/gray_data_in"
+        ]
+      },
+      "rgb2gray_0_output_valid": {
+        "ports": [
+          "rgb2gray_0/output_valid",
+          "matrix_3r3c_0/input_valid"
+        ]
+      },
+      "matrix_3r3c_0_mat_row_1_out": {
+        "ports": [
+          "matrix_3r3c_0/mat_row_1_out",
+          "sobel_algo_0/mat_row_1_in"
+        ]
+      },
+      "matrix_3r3c_0_mat_row_2_out": {
+        "ports": [
+          "matrix_3r3c_0/mat_row_2_out",
+          "sobel_algo_0/mat_row_2_in"
+        ]
+      },
+      "matrix_3r3c_0_mat_row_3_out": {
+        "ports": [
+          "matrix_3r3c_0/mat_row_3_out",
+          "sobel_algo_0/mat_row_3_in"
+        ]
+      },
+      "matrix_3r3c_0_mat_flag": {
+        "ports": [
+          "matrix_3r3c_0/mat_flag",
+          "sobel_algo_0/mat_flag"
+        ]
+      },
+      "clk_1": {
+        "ports": [
+          "clk",
+          "rgb2gray_0/clk",
+          "matrix_3r3c_0/clk",
+          "sobel_algo_0/clk",
+          "mem_ctrl_0/clk",
+          "blk_mem_gen_0/clka"
+        ]
+      },
+      "sobel_algo_0_output_valid": {
+        "ports": [
+          "sobel_algo_0/output_valid",
+          "mem_ctrl_0/input_valid"
+        ]
+      },
+      "sobel_algo_0_sobel_out": {
+        "ports": [
+          "sobel_algo_0/sobel_out",
+          "mem_ctrl_0/din"
+        ]
+      },
+      "mem_ctrl_0_wr_addr": {
+        "ports": [
+          "mem_ctrl_0/wr_addr",
+          "blk_mem_gen_0/addra"
+        ]
+      },
+      "mem_ctrl_0_dout": {
+        "ports": [
+          "mem_ctrl_0/dout",
+          "blk_mem_gen_0/dina"
+        ]
+      },
+      "mem_ctrl_0_wea": {
+        "ports": [
+          "mem_ctrl_0/wea",
+          "blk_mem_gen_0/wea"
+        ]
+      },
+      "xlconstant_0_dout": {
+        "ports": [
+          "xlconstant_0/dout",
+          "blk_mem_gen_0/ena"
+        ]
+      }
+    }
+  }
+}

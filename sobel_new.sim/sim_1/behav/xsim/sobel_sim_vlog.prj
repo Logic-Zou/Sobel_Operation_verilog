@@ -1,0 +1,20 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../sobel_new.srcs/sources_1/imports/sobel_new.srcs/matrix_3r3c.v" \
+"../../../../sobel_new.srcs/sources_1/imports/sobel_new.srcs/sobel_algo.v" \
+"../../../../sobel_new.srcs/mem_ctrl.v" \
+"../../../../sobel_new.ip_user_files/bd/sobel_top/ip/sobel_top_rgb2gray_0_0/sim/sobel_top_rgb2gray_0_0.v" \
+"../../../../sobel_new.ip_user_files/bd/sobel_top/ip/sobel_top_matrix_3r3c_0_0/sim/sobel_top_matrix_3r3c_0_0.v" \
+"../../../../sobel_new.ip_user_files/bd/sobel_top/ip/sobel_top_sobel_algo_0_0/sim/sobel_top_sobel_algo_0_0.v" \
+"../../../../sobel_new.ip_user_files/bd/sobel_top/sim/sobel_top.v" \
+"../../../../sobel_new.ip_user_files/bd/sobel_top/ip/sobel_top_mem_ctrl_0_1/sim/sobel_top_mem_ctrl_0_1.v" \
+"../../../../sobel_new.ip_user_files/bd/sobel_top/ip/sobel_top_blk_mem_gen_0_0/sim/sobel_top_blk_mem_gen_0_0.v" \
+"../../../../sobel_new.ip_user_files/bd/sobel_top/ip/sobel_top_xlconstant_0_0/sim/sobel_top_xlconstant_0_0.v" \
+"../../../../sobel_new.srcs/sources_1/imports/hdl/sobel_top_wrapper.v" \
+"../../../../sobel_new.srcs/sim_1/imports/sobel_new.sim/sobel_sim.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

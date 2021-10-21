@@ -1,0 +1,12 @@
+xpm_memory.sv,systemverilog,xil_defaultlib,../../../../../../../../vivado/vivado/Vivado/2018.3/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv,
+xpm_VCOMP.vhd,vhdl,xpm,../../../../../../../../vivado/vivado/Vivado/2018.3/data/ip/xpm/xpm_VCOMP.vhd,
+sobel_top_rgb2gray_0_0.v,verilog,xil_defaultlib,../../../bd/sobel_top/ip/sobel_top_rgb2gray_0_0/sim/sobel_top_rgb2gray_0_0.v,
+sobel_top_matrix_3r3c_0_0.v,verilog,xil_defaultlib,../../../bd/sobel_top/ip/sobel_top_matrix_3r3c_0_0/sim/sobel_top_matrix_3r3c_0_0.v,
+sobel_top_sobel_algo_0_0.v,verilog,xil_defaultlib,../../../bd/sobel_top/ip/sobel_top_sobel_algo_0_0/sim/sobel_top_sobel_algo_0_0.v,
+sobel_top.v,verilog,xil_defaultlib,../../../bd/sobel_top/sim/sobel_top.v,
+sobel_top_mem_ctrl_0_1.v,verilog,xil_defaultlib,../../../bd/sobel_top/ip/sobel_top_mem_ctrl_0_1/sim/sobel_top_mem_ctrl_0_1.v,
+blk_mem_gen_v8_4.v,verilog,blk_mem_gen_v8_4_2,../../../../sobel_new.srcs/sobel_top/ipshared/37c2/simulation/blk_mem_gen_v8_4.v,
+sobel_top_blk_mem_gen_0_0.v,verilog,xil_defaultlib,../../../bd/sobel_top/ip/sobel_top_blk_mem_gen_0_0/sim/sobel_top_blk_mem_gen_0_0.v,
+xlconstant_v1_1_vl_rfs.v,verilog,xlconstant_v1_1_5,../../../../sobel_new.srcs/sobel_top/ipshared/4649/hdl/xlconstant_v1_1_vl_rfs.v,
+sobel_top_xlconstant_0_0.v,verilog,xil_defaultlib,../../../bd/sobel_top/ip/sobel_top_xlconstant_0_0/sim/sobel_top_xlconstant_0_0.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

@@ -1,0 +1,16 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sat Oct 16 18:42:17 2021
+| Host         : KT8I3J8KKD96Z0T running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tfbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'sobel_top_sobel_algo_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of sobel_top_sobel_algo_0_0 (xilinx.com:module_ref:sobel_algo:1.0 (Rev. 1)) to Vivado generation flows.
+

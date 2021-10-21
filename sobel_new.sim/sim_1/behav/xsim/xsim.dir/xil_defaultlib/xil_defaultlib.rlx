@@ -1,0 +1,23 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+E:/XILINX/Projects/sobel_operataion/sobel_new/sobel_new.ip_user_files/bd/sobel_top/ip/sobel_top_blk_mem_gen_0_0/sim/sobel_top_blk_mem_gen_0_0.v,1634734910,verilog,,E:/XILINX/Projects/sobel_operataion/sobel_new/sobel_new.ip_user_files/bd/sobel_top/ip/sobel_top_xlconstant_0_0/sim/sobel_top_xlconstant_0_0.v,,sobel_top_blk_mem_gen_0_0,,,,,,,,
+E:/XILINX/Projects/sobel_operataion/sobel_new/sobel_new.ip_user_files/bd/sobel_top/ip/sobel_top_matrix_3r3c_0_0/sim/sobel_top_matrix_3r3c_0_0.v,1634386366,verilog,,E:/XILINX/Projects/sobel_operataion/sobel_new/sobel_new.ip_user_files/bd/sobel_top/ip/sobel_top_sobel_algo_0_0/sim/sobel_top_sobel_algo_0_0.v,,sobel_top_matrix_3r3c_0_0,,,,,,,,
+E:/XILINX/Projects/sobel_operataion/sobel_new/sobel_new.ip_user_files/bd/sobel_top/ip/sobel_top_mem_ctrl_0_1/sim/sobel_top_mem_ctrl_0_1.v,1634735831,verilog,,E:/XILINX/Projects/sobel_operataion/sobel_new/sobel_new.ip_user_files/bd/sobel_top/ip/sobel_top_blk_mem_gen_0_0/sim/sobel_top_blk_mem_gen_0_0.v,,sobel_top_mem_ctrl_0_1,,,,,,,,
+E:/XILINX/Projects/sobel_operataion/sobel_new/sobel_new.ip_user_files/bd/sobel_top/ip/sobel_top_rgb2gray_0_0/sim/sobel_top_rgb2gray_0_0.v,1634386366,verilog,,E:/XILINX/Projects/sobel_operataion/sobel_new/sobel_new.ip_user_files/bd/sobel_top/ip/sobel_top_matrix_3r3c_0_0/sim/sobel_top_matrix_3r3c_0_0.v,,sobel_top_rgb2gray_0_0,,,,,,,,
+E:/XILINX/Projects/sobel_operataion/sobel_new/sobel_new.ip_user_files/bd/sobel_top/ip/sobel_top_sobel_algo_0_0/sim/sobel_top_sobel_algo_0_0.v,1634386366,verilog,,E:/XILINX/Projects/sobel_operataion/sobel_new/sobel_new.ip_user_files/bd/sobel_top/sim/sobel_top.v,,sobel_top_sobel_algo_0_0,,,,,,,,
+E:/XILINX/Projects/sobel_operataion/sobel_new/sobel_new.ip_user_files/bd/sobel_top/ip/sobel_top_xlconstant_0_0/sim/sobel_top_xlconstant_0_0.v,1634734911,verilog,,E:/XILINX/Projects/sobel_operataion/sobel_new/sobel_new.srcs/sources_1/imports/hdl/sobel_top_wrapper.v,,sobel_top_xlconstant_0_0,,,,,,,,
+E:/XILINX/Projects/sobel_operataion/sobel_new/sobel_new.ip_user_files/bd/sobel_top/sim/sobel_top.v,1634735831,verilog,,E:/XILINX/Projects/sobel_operataion/sobel_new/sobel_new.ip_user_files/bd/sobel_top/ip/sobel_top_mem_ctrl_0_1/sim/sobel_top_mem_ctrl_0_1.v,,sobel_top,,,,,,,,
+E:/XILINX/Projects/sobel_operataion/sobel_new/sobel_new.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+E:/XILINX/Projects/sobel_operataion/sobel_new/sobel_new.srcs/mem_ctrl.v,1634735658,verilog,,E:/XILINX/Projects/sobel_operataion/sobel_new/sobel_new.ip_user_files/bd/sobel_top/ip/sobel_top_rgb2gray_0_0/sim/sobel_top_rgb2gray_0_0.v,,mem_ctrl,,,,,,,,
+E:/XILINX/Projects/sobel_operataion/sobel_new/sobel_new.srcs/sim_1/imports/sobel_new.sim/sobel_sim.v,1634735125,verilog,,,,sobel_sim,,,,,,,,
+E:/XILINX/Projects/sobel_operataion/sobel_new/sobel_new.srcs/sources_1/imports/hdl/sobel_operation.v,1634118554,verilog,,E:/XILINX/Projects/sobel_operataion/sobel_new/sobel_new.srcs/sim_1/imports/sobel_new.sim/sobel_sim.v,,sobel_operation,,,,,,,,
+E:/XILINX/Projects/sobel_operataion/sobel_new/sobel_new.srcs/sources_1/imports/hdl/sobel_top_wrapper.v,1634734959,verilog,,E:/XILINX/Projects/sobel_operataion/sobel_new/sobel_new.srcs/sim_1/imports/sobel_new.sim/sobel_sim.v,,sobel_top_wrapper,,,,,,,,
+E:/XILINX/Projects/sobel_operataion/sobel_new/sobel_new.srcs/sources_1/imports/sobel_new.srcs/matrix_3r3c.v,1634278439,verilog,,E:/XILINX/Projects/sobel_operataion/sobel_new/sobel_new.srcs/sources_1/imports/sobel_new.srcs/sobel_algo.v,,matrix_3r3c,,,,,,,,
+E:/XILINX/Projects/sobel_operataion/sobel_new/sobel_new.srcs/sources_1/imports/sobel_new.srcs/rgb2gray.v,1634128928,verilog,,E:/XILINX/Projects/sobel_operataion/sobel_new/sobel_new.srcs/sources_1/imports/sobel_new.srcs/matrix_3r3c.v,,rgb2gray,,,,,,,,
+E:/XILINX/Projects/sobel_operataion/sobel_new/sobel_new.srcs/sources_1/imports/sobel_new.srcs/sobel_algo.v,1634385327,verilog,,E:/XILINX/Projects/sobel_operataion/sobel_new/sobel_new.srcs/mem_ctrl.v,,sobel_algo,,,,,,,,
+E:/XILINX/Projects/sobel_operataion/sobel_new/sobel_new.srcs/sources_1/ip/c_shift_ram_0/sim/c_shift_ram_0.vhd,1634279937,vhdl,,,,c_shift_ram_0,,,,,,,,
+E:/XILINX/Projects/sobel_operataion/sobel_new/sobel_new.srcs/sources_1/ip/c_shift_ram_1/sim/c_shift_ram_1.vhd,1634385079,vhdl,,,,c_shift_ram_1,,,,,,,,
+E:/XILINX/Projects/sobel_operataion/sobel_new/sobel_new.srcs/sources_1/ip/dsp48_macro_multip/sim/dsp48_macro_multip.vhd,1634122999,vhdl,,,,dsp48_macro_multip,,,,,,,,
+E:/XILINX/Projects/sobel_operataion/sobel_new/sobel_new.srcs/sources_1/ip/dsp48_macro_multiplier/sim/dsp48_macro_multiplier.vhd,1634114197,vhdl,,,,dsp48_macro_multiplier,,,,,,,,

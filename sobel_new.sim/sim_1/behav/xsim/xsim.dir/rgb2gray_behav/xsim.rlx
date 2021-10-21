@@ -1,0 +1,12 @@
+
+{ 
+    crc :  7840312406674537969  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto eb4192accd7542c79abc13e8e3620fcd --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xbip_dsp48_wrapper_v3_0_4 -L xbip_utils_v3_0_9 -L xbip_pipe_v3_0_5 -L xbip_dsp48_macro_v3_0_16 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot rgb2gray_behav xil_defaultlib.rgb2gray xil_defaultlib.glbl" , 
+    buildDate : "Dec  7 2018" , 
+    buildTime : "00:33:28" , 
+    linkCmd : "E:\\vivado\\vivado\\Vivado\\2018.3\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/rgb2gray_behav/xsimk.exe\"   \"xsim.dir/rgb2gray_behav/obj/xsim_0.win64.obj\" \"xsim.dir/rgb2gray_behav/obj/xsim_1.win64.obj\" -L\"E:\\vivado\\vivado\\Vivado\\2018.3\\lib\\win64.o\" -lrdi_simulator_kernel  -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

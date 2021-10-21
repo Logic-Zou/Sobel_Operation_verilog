@@ -1,0 +1,8 @@
+sobel_top_rgb2gray_0_0.v,verilog,xil_defaultlib,../../../bd/sobel_top/ip/sobel_top_rgb2gray_0_0/sim/sobel_top_rgb2gray_0_0.v,
+sobel_top_matrix_3r3c_0_0.v,verilog,xil_defaultlib,../../../bd/sobel_top/ip/sobel_top_matrix_3r3c_0_0/sim/sobel_top_matrix_3r3c_0_0.v,
+sobel_top_sobel_algo_0_0.v,verilog,xil_defaultlib,../../../bd/sobel_top/ip/sobel_top_sobel_algo_0_0/sim/sobel_top_sobel_algo_0_0.v,
+sobel_top.v,verilog,xil_defaultlib,../../../bd/sobel_top/sim/sobel_top.v,
+sobel_top_mem_ctrl_0_1.v,verilog,xil_defaultlib,../../../bd/sobel_top/ip/sobel_top_mem_ctrl_0_1/sim/sobel_top_mem_ctrl_0_1.v,
+sobel_top_blk_mem_gen_0_0.v,verilog,xil_defaultlib,../../../bd/sobel_top/ip/sobel_top_blk_mem_gen_0_0/sim/sobel_top_blk_mem_gen_0_0.v,
+sobel_top_xlconstant_0_0.v,verilog,xil_defaultlib,../../../bd/sobel_top/ip/sobel_top_xlconstant_0_0/sim/sobel_top_xlconstant_0_0.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v
